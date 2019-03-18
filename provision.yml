@@ -2,7 +2,7 @@
  - name: Create a login user
      user:
       name: schaary
-      password: '$6$OQesvdeVn2$ZrhLTvHBo0TDBIiX/h0BbYX4ob5kfq7ONy6/UfM1sBg9RYkqwtT.aindSRZLCYhqKZIYTeMvRk9R6SHJfFUll.'
+      password: $6$OQesvdeVn2$ZrhLTvHBo0TDBIiX/h0BbYX4ob5kfq7ONy6/UfM1sBg9RYkqwtT.aindSRZLCYhqKZIYTeMvRk9R6SHJfFUll.
       groups: # Empty by default, here we give it some groups
       #       - docker
       # - sudo

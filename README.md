@@ -12,6 +12,7 @@ grants and several packages:
 - tmux
 - mc 
 - whois
+- tree
 - docker
 - docker-compose
 
