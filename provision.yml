@@ -3,7 +3,13 @@
   remote_user: root
 
   tasks:
-  - name:
+  - name: install | htop
+    package: 
+      name: htop
+      state: present
+      update_cache: yes
+
+  - name: create the local user schaary
     user:
       name: schaary
       password: $6$OQesvdeVn2$ZrhLTvHBo0TDBIiX/h0BbYX4ob5kfq7ONy6/UfM1sBg9RYkqwtT.aindSRZLCYhqKZIYTeMvRk9R6SHJfFUll.
