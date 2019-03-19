@@ -9,6 +9,12 @@
       state: present
       update_cache: yes
 
+  - name: install | mc
+    package:
+      name: mc
+      state: present
+      update_cache: yes
+
   - name: create the local user schaary
     user:
       name: schaary
