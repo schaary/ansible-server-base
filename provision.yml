@@ -15,6 +15,13 @@
       state: present
       update_cache: yes
 
+
+  - name: install | tree
+    package:
+      name: tree
+      state: present
+      update_cache: yes
+
   - name: create the local user schaary
     user:
       name: schaary
